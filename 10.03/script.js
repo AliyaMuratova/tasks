@@ -6,5 +6,10 @@ function minNumber (a, b){
      return b
  }
 }
-console.log(minNumber(9,5))
+
+function showNumber (x){
+    console.log(x)
+}
+let result = minNumber(3,9)
+showNumber(result)
 

@@ -13,15 +13,14 @@
 const btn = document.querySelector('#ok-btn')
 const notification = document.querySelector('.notification');
 
-btn.onclick = function showNotification({text, className}) {
-    notification.className = "notification";
-    if (className) {
-        notification.classList.add(className);
-        notification.textContent = text;
-    }
-    setTimeout(() => notification.remove(), 1500);
 
-    showNotification ({
+function showNotification({text, className}) {
+    notification.classList.add(className);
+    notification.textContent = text;
+    setTimeout(() => notification.classList.remove('alert'), 1500);
+}
+btn.onclick = () => {
+    showNotification({
         text: 'Ошибка. Обновите страницу',
         className: 'alert'
     })

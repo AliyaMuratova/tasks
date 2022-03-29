@@ -1,0 +1,43 @@
+.btn {
+    border: 0;
+    padding: 15px 40px;
+    background-color: darkred;
+    color: white;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.block {
+    height: 500px;
+    width: 500px;
+    background-color: coral;
+}
+.block-2 {
+    height: 100px;
+    width: 100px;
+    background-color: darkred;
+}
+
+.bg-1{
+    background-color: chocolate;
+}
+.bg-2 {
+    background-color: blueviolet;
+}
+
+.notification {
+    position: fixed;
+    top: 3%;
+    right: 50%;
+    background: white;
+    text-align: center;
+    opacity: 0;
+}
+.alert{
+    background: lightblue;
+    color: darkblue;
+    font-size: 15px;
+    opacity: 1;
+    height: 80px;
+    width: 200px;
+}

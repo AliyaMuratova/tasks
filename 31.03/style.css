@@ -1,0 +1,16 @@
+form {
+    margin-top: 30px;
+    margin-left: 3%;
+}
+input {
+    margin-bottom: 15px;
+}
+select {
+    margin-bottom: 15px;
+}
+.form-check-label {
+    margin-right: 10px;
+}
+.form-check-input {
+    margin-left: 9px;
+}
